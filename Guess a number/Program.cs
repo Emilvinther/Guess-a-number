@@ -1,7 +1,7 @@
 ﻿Random random = new Random();
 int rndnr = random.Next(1, 11);
 
-Console.WriteLine("Guess a number between 1-10");
+Console.WriteLine("Gæt et nummer imellem 1-10");
 int guess = int.Parse(Console.ReadLine());
 
 int i = 0;
